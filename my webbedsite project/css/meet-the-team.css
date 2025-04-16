@@ -1,0 +1,89 @@
+header {
+    height: 100px;
+}
+header h1 {
+    float: left;
+    margin-top: 15px;
+    font-family: 'Crete Round', serif;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+}
+header nav ul li {
+    display: inline-block;
+    margin-top: 40px;
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;   
+    
+}
+
+section {
+    min-height: 200vh;
+    display: flex;
+    max-width: 100vw;
+    margin: 0;
+    flex-direction: column;  
+    border-block-start-width: 50px;
+    border-block-start-style: solid;
+    border-block-start-color:aliceblue;
+}
+section div {
+     display: flex;
+     flex-basis: auto;
+     flex: 2;
+     position: relative;
+     justify-content: left;
+     align-items: center;
+     transition: all 0.5s ease-in-out;
+     flex-wrap: wrap;
+     padding-left: 10%;
+}
+
+
+
+section div:hover {
+    flex-grow: 4;
+}
+
+.yellow {
+    background-color:bisque; 
+}
+
+.blue {
+    background-color: #02b8dd;
+}
+div #sameifier 
+{
+    display: flexbox;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+section div img {
+    width: 200px;
+    display: flex;
+    border-radius: 50%;
+}
+
+section div p {
+    font-size: 25px;
+}
+
+#hero-image {
+    height: 100vh;
+    background: #e8eced url('../images/heroimage.png') no-repeat;
+    background-size:fill; 
+}
+#hero-image h1 {
+    text-align: left;
+    font-size: 150px;
+    padding-top: 30vh;
+}

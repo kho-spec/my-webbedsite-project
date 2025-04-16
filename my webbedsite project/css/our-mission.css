@@ -1,0 +1,128 @@
+/*Header*/
+
+
+
+
+header {
+    height: 250px;
+    border-bottom: 1px solid #02b8dd;
+}
+header h1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: -100px;
+    font-family: 'Crete Round', serif;
+    font-size: 150px;
+}
+header h1 .color {
+    color: #02b8dd;
+}
+header nav {
+    float: right;
+    margin-right: -50px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-top: 100px;
+    
+}
+header nav ul li a {
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin-right: 20px;   
+    
+}
+
+/*we*/
+#we {
+    background-color: #ffffff;
+    height: 600px;
+    padding-top: 90px;
+    display: flex;
+    
+}
+
+#we h1 {
+    font-family: 'Crete Round', serif;
+    font-size: 100px;
+    display: inherit;
+    justify-content: right;
+    order: 2;
+    
+}
+
+#we p {
+    width: 10 vw;
+    justify-content: space-around;
+    order: 2;
+}
+
+#we li.humanlogo {
+    height: 400px;
+    width: 400px;
+    float: left;
+    background: url('../images/human logo.png') no-repeat;
+    background-size: contain;
+    margin-left: 5vw;
+    transition: all 5s;
+    border-radius: 50%;
+    order:  2;
+}
+#we li.humanlogo:hover {
+   transform: rotate(360deg); 
+}
+
+#hero-image {
+    height: 100vh;
+    padding-top: 1px;
+    background: #e8eced url('../images/heroimage.png') no-repeat;
+    background-size:fill;
+}
+#hero-image h1 {
+    padding-top: 20vh;
+    text-align: left;
+    font-size: 150px;
+}
+
+  #buffer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    font-size: 100px;
+  }
+
+  #threepics {
+    margin: 0 10vw;
+  }
+  #threepics ul {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 20px;
+  }
+
+#threepics ul li {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    transition: transform 0.5s
+
+}
+
+#threepics ul li:hover{
+    transform: scale(1.2)
+}
+#threepics ul li.pic1 {
+    background: url('../images/watermelon icon.png') no-repeat;
+    background-size: contain;
+}
+#threepics ul li.pic2 {
+    background: url('../images/coffee icon.png') no-repeat;
+    background-size: contain;
+}
+#threepics ul li.pic3 {
+    background: url('../images/plant icon.png') no-repeat;
+    background-size: contain;
+}

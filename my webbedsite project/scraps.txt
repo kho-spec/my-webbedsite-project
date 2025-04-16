@@ -1,0 +1,16 @@
+#smallicons ul {
+  margin: 80px 0;
+}
+
+#smallicons img {
+  display: block;
+  margin: auto;
+  width: 250px;
+  padding-top: 70px;
+
+}
+#we li.headersmall {
+    height: 400px;
+    background: url('../images/pink me.png') no-repeat;
+    background-size: auto;
+}
